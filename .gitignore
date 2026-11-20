@@ -16,3 +16,13 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# Build output
+/bin/
+/dist/
+web/node_modules/
+
+# Generated demo repositories and credentials (contain deliberate leaks)
+demo/leaky-repo*/
+demo/*-signing-key*
+demo/*-allowed-signers*
